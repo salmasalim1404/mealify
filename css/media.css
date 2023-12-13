@@ -1,0 +1,75 @@
+@media screen and (max-width: 1200px){
+   .menu-icon{
+        display: block !important;
+    }
+    nav .container ul{
+        display: none !important;
+    }
+}
+@media screen and (min-width: 1200px){
+    header .container{
+        min-height: 100vh;
+    }
+}
+@media screen and (max-width: 992px){
+    header .container picture{
+        width: 100%;
+    }
+    
+    header .container .header-content{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header .container {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    header .header-content .btn-main{
+        border-radius: 100vh;
+      }
+   
+}
+@media screen and (max-width: 550px){
+    header .buttons-group{
+    flex-direction: column;   
+    }
+}
+/* chefs */
+@media screen and (max-width: 992px){
+section .chefs-card .card{
+        width: calc(calc(100% - 20px) / 2);
+    }
+}
+@media screen and (max-width: 600px){
+    section .chefs-card .card{
+        width: calc(calc(100% - 0px) / 1);
+    }
+}
+
+@media screen and (max-width: 720px){
+    section .gallery-flex .gallery-1{
+        width: calc(calc(100% - 0px) / 1);
+    }
+    .gallery-flex{
+        flex-direction: column;
+    }
+}
+ @media screen and (max-width: 1200px){
+    
+        footer .container .about,
+        footer .container .contact-data {
+    
+            width: 100% !important;
+            order: 1;
+
+        }
+        footer .container .subscrib{
+            width: 100% !important;
+            order: 2;
+        }
+    }

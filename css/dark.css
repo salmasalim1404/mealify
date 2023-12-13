@@ -1,0 +1,26 @@
+body:has(.mode input:checked) {
+    background: black;
+}
+body:has(.mode input:checked) #home{
+    background: black !important;
+
+}
+body:has(.mode input:checked) .active,
+body:has(.mode input:checked) .active,
+body:has(.mode input:checked) .activ,
+body:has(.mode input:checked) .acti,
+body:has(.mode input:checked) .act{
+    color: aliceblue !important;
+}
+body:has(.mode input:checked) nav{
+    background: black !important;
+}
+body:has(.mode input:checked) #gallery{
+    background: black !important;
+}
+body:has(.mode input:checked) .mode .light{
+    display: block;
+}
+body:has(.mode input:checked) .mode .dark{
+    display: none;
+}
